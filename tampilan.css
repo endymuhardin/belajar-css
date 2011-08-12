@@ -2,3 +2,7 @@ body {
     font-size: 20pt;
 }
 
+table, th, td {
+    border: 1px solid green;
+}
+
