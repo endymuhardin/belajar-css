@@ -10,3 +10,16 @@ table, th, td {
     border: 1px solid green;
 }
 
+
+th {
+    color: white;
+    font-size: 25pt;
+    font-family: arial;
+    background-color: #00bd26;
+}
+
+td {
+    font-size: 20pt;
+    font-family: verdana;
+}
+
