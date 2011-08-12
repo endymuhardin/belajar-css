@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Entri Biodata</title>
+    </head>
+
+    <body>
+        <h1>Entri Biodata</h1>
+
+        <form action=view.html method=get>
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type=text name=nama></td>
+                    <td>nama harus diisi</td>
+                </tr>
+                <tr>
+                    <td>Tempat Lahir</td>
+                    <td><input type=text></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td><input type=text></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>
+                        <select>
+                            <option>Pilih Agama...</option>
+                            <option>Islam</option>
+                            <option>Kristen</option>
+                            <option>Katolik</option>
+                            <option>Hindu</option>
+                            <option>Budha</option>
+                            <option>Lainnya</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type=radio name=jenis>Pria
+                        <input type=radio name=jenis>Wanita
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td valign=top>Alamat</td>
+                    <td>
+                        <textarea name=alamat rows=5 cols=40></textarea>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                        <input type=submit value=Simpan>
+                        <input type=reset value=Batal>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
+
